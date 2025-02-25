@@ -1,0 +1,27 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Nodejs backend",
+  "keywords": [
+    "nodejs"
+  ],
+  "homepage": "https://github.com/Balkrishna6420/nodeJs#readme",
+  "bugs": {
+    "url": "https://github.com/Balkrishna6420/nodeJs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balkrishna6420/nodeJs.git"
+  },
+  "license": "ISC",
+  "author": "Balkrishna",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.13.1"
+  }
+}
